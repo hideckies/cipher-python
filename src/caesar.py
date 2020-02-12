@@ -33,5 +33,6 @@ def caesar(plaintext, key):
 
 if __name__ == "__main__":
     plaintext = getpass.getpass()
+    ciphertext = caesar(plaintext, 3)
     print("")
-    print("Created: {}".format(caesar(plaintext, 3)))
+    print("Created: ", ciphertext)
